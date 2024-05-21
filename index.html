@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Smooth Animation</title>
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.5/dist/web/static/pretendard.css"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="sticky-container" id="sticky-container">
+      <div class="sticky">
+        <div class="slide-container">
+          <div class="slide" id="slide1">
+            <div class="slide-big-text">
+              <p>축하합니다!</p>
+              <p>암호를 푸셨군요!</p>
+            </div>
+          </div>
+          <div id="scroll-down">
+            <div class="scroll-down-text">아래로 스크롤하세요.</div>
+          </div>
+          <div class="slide" id="slide2">
+            <div class="slide-big-text">
+              <p>선물로 패스워드를</p>
+              <p>드립니다.</p>
+            </div>
+          </div>
+          
+          <div class="slide" id="slide3">
+            <div class="slide-big-text">
+              <p>강의 전 도움이</p>
+              <p>될거에요.</p>
+              <p style="color:rgb(50, 0, 255)">849227</p>
+            </div>
+          </div>
+          
+          <div class="slide slide-left" id="slide4">
+            <div class="slide4-content">
+              <div class="slide-small-text">
+                <p>저희 강의는 아래와 같이</p>
+                <p>진행될 예정이에요.</p>
+              </div>
+              <div class="slide-mid-text">
+                <p>- RSA가 사용되는 곳</p>
+                <p>- mod를 비롯한 정수론</p>
+                <p>- RSA암호의 원리</p>
+                <p>- RSA암호의 보안성 증명</p>
+              </div>
+            </div>
+          </div>
+
+          <div id="moving-background", style="background-color: white;"></div>
+
+          <div class="slide slide-left" id="slide5">
+            <div class="slide-mid-text">
+              <p>강의 전 합동식에 대해</p>
+              <p>조금 찾아보면 도움이 될거에요!</p></br>
+              <p>그럼 강의 때 뵙죠 (꾸벅)</p>
+            </div>
+            <div class="go-surf-wrapper">
+              <p>- 이상입니다 -</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
